@@ -19,7 +19,7 @@ var map = L.map('map').setView([48.500228,-121.626892], 9);
 mapLink = '<a href="http://openstreetmap.org">OpenStreetMap</a>'; 
 wholink = '<a href="http://stamen.com">Stamen Design</a>';
         L.tileLayer(
-            'http://{s}.tile.stamen.com/terrain/{z}/{x}/{y}.jpg', {
+            'http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg', {
             attribution: '&copy; '+mapLink+' Contributors & '+wholink,
             maxZoom: 18,
             }).addTo(map);
